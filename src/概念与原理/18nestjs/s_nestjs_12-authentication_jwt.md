@@ -89,7 +89,7 @@ Authorization: Bearer <access_token>
     ↓
 建立可信身份上下文，例如 request.user
     ↓
-授权 Guard 判断角色或权限；Service 检查具体资源归属
+授权 Guard 判断角色或权限；Service 检查具体资源归属和租户边界
     ↓
 执行业务并返回结果
 ```
@@ -113,7 +113,7 @@ NestJS 的 Guard 早于 Pipe 执行，因此不能假定 Guard 收到的路由�
 | AuthService | 校验凭证、签发令牌、管理刷新会话 |
 | JwtModule / JwtService | 配置可信密钥，执行签发和验证 |
 | 认证 Guard | 提取 Token、验证凭证、建立身份上下文 |
-| 授权 Guard | 根据路由元数据检查角色、权限等规则 |
+| 授权 Guard | 根据路由元数据检查角色、权限等规则；复杂策略见[权限控制模型](./s_nestjs_13-authorization_models) |
 | 业务 Service | 检查资源归属、数据状态等业务权限 |
 
 也可以借助 Passport 的 Strategy 与 Guard 接入认证机制，并非必须自行编写全部解析与验证逻辑。

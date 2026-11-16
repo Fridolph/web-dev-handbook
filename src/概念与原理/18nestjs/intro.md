@@ -1,6 +1,6 @@
 # NestJS 学习入口
 
-> 从前端经验走向服务端开发，整理 NestJS 的概念、分层与工程实践。当前收录 12 篇概念文章，随课程学习和实践持续补充。
+> 从前端经验走向服务端开发，整理 NestJS 的概念、分层与工程实践。当前收录 13 篇概念文章，随课程学习和实践持续补充。
 
 ## 零散笔记可以放在哪里？
 
@@ -10,6 +10,7 @@
 | IoC、DI、Provider 与容器 | [提供者与 DI](./s_nestjs_4-provider) | 补充已有概念文章，避免重复维护 |
 | MVC、DTO、DAO 与 ORM 的关系 | [MVC 与分层](./s_nestjs_11-layering_dto_dao) | 说明请求、业务与持久化边界 |
 | Session、JWT、OAuth 与接口安全 | [认证、授权与 JWT](./s_nestjs_12-authentication_jwt) | 区分认证与授权，理解凭证、刷新和安全边界 |
+| RBAC、ABAC、ACL 与资源授权 | [权限控制模型](./s_nestjs_13-authorization_models) | 从角色权限走向资源、租户和上下文策略 |
 | 需求分析、接口设计、模块、安全与测试 | [编码与实践 → 服务设计](/编码与实践/18nestjs/c_nestjs_1-service_design/c_nestjs_1-service_design) | 串成待实现、可验证的练习方案 |
 
 建议先读编程范式与分层，再看 Provider 和请求生命周期，最后尝试完成设计练习。已有[基础认知自测](/学习自测/18nestjs/q_nestjs_5-basics)、[请求生命周期自测](/学习自测/18nestjs/q_nestjs_7-request_lifecycle)用于回顾；同一概念的详细解释主要维护在概念区。
@@ -23,6 +24,7 @@
 - :white_check_mark: [提供者与 DI](./s_nestjs_4-provider) — @Injectable、自定义 Provider、作用域、循环依赖
 - :white_check_mark: [中间件与守卫](./s_nestjs_5-middleware_guard) — 执行顺序、JWT 认证、角色权限
 - :white_check_mark: [认证、授权与 JWT](./s_nestjs_12-authentication_jwt) — Session、OAuth、Token 验证、刷新与 API 安全
+- :white_check_mark: [权限控制模型：RBAC / ABAC](./s_nestjs_13-authorization_models) — ACL、DAC、MAC、RBAC、ABAC、ReBAC 与策略落地
 - :white_check_mark: [拦截器与管道](./s_nestjs_6-interceptor_pipe) — 响应转换、ValidationPipe、class-validator
 - :white_check_mark: [异常过滤器](./s_nestjs_7-exception_filter) — 统一错误响应、业务异常、错误码体系
 - :white_check_mark: [TypeORM & Prisma](./s_nestjs_8-orm) — Entity/Schema、Migration、选型对比

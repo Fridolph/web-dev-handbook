@@ -75,6 +75,7 @@ export default [
       useConceptItem('提供者与 DI', 'nestjs', 4, 'provider'),
       useConceptItem('中间件与守卫', 'nestjs', 5, 'middleware_guard'),
       useConceptItem('认证、授权与 JWT', 'nestjs', 12, 'authentication_jwt'),
+      useConceptItem('权限控制模型：RBAC / ABAC', 'nestjs', 13, 'authorization_models'),
       useConceptItem('拦截器与管道', 'nestjs', 6, 'interceptor_pipe'),
       useConceptItem('异常过滤器', 'nestjs', 7, 'exception_filter'),
       useConceptItem('TypeORM & Prisma', 'nestjs', 8, 'orm'),
