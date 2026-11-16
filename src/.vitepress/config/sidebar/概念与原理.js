@@ -223,6 +223,9 @@ export default [
       useConceptItem('CSRF', 'safe', 3, 'CSRF'),
       useConceptItem('中间人攻击', 'safe', 4, '中间人攻击'),
       useConceptItem('旁观者攻击', 'safe', 5, '旁观者攻击'),
+      useConceptItem('SQL 注入与参数化查询', 'safe', 6, 'sql_injection'),
+      useConceptItem('彩虹表与离线密码破解', 'safe', 7, 'rainbow_tables'),
+      useConceptItem('密码哈希、加盐与存储', 'safe', 8, 'password_hashing'),
     ],
   },
   {
