@@ -4,6 +4,10 @@
 
 目前可先阅读[PostgreSQL 与 MySQL 对比及选型](/学习自测/19database/q_database_1-postgresql_vs_mysql)，建立整体认识。
 
+## ORM 与数据库演进
+
+从 NestJS 项目的数据访问入手，可阅读[TypeORM、Prisma 与数据库迁移复习](../18nestjs/s_nestjs_14-orm_migrations)：涵盖工具差异、开发与部署命令、影子库、失败恢复，以及兼容发布、数据回填和 PostgreSQL DDL 锁。示例是学习方案，本站没有执行真实数据库迁移。
+
 ## 数据访问与凭证安全
 
 以下原理统一维护在 Web 安全模块，适用于 PostgreSQL、MySQL 等数据库与上层应用：
