@@ -1,5 +1,5 @@
 > 2024 年 AI 浪潮席卷整个行业，前端开发者也需了解 AI / 大模型的基础概念及应用场景。
-> 本版块涵盖 **30 个核心概念**，按三大板块整理。
+> 本版块涵盖 **38 个核心概念**，按三大板块整理。
 
 ## AI & 大模型基础
 
@@ -9,8 +9,11 @@
 - :white_check_mark: [神经网络](./s_ai_4-neural_network)
 - :white_check_mark: [生成式 AI](./s_ai_5-generative_ai)
 - :white_check_mark: [大语言模型 LLM](./s_ai_6-llm)
+- :white_check_mark: [AI / ML / DL / LLM 的关系与评估](./s_ai_32-ai_ml_dl_llm)
 - :white_check_mark: [Transformer 架构](./s_ai_7-transformer)
+- :white_check_mark: [生成链路与推理性能（Prefill / KV Cache）](./s_ai_33-inference_pipeline)
 - :white_check_mark: [Token 与分词](./s_ai_8-tokenization)
+- :white_check_mark: [Token 的工程账本（计数 / 预算 / 成本）](./s_ai_34-token_budget)
 - :white_check_mark: [Embedding 向量嵌入](./s_ai_9-embedding)
 - :white_check_mark: [Attention 注意力机制](./s_ai_10-attention)
 - :white_check_mark: [预训练与微调](./s_ai_11-pretraining_finetuning)
@@ -21,6 +24,11 @@
 
 ## AI Agent 开发
 
+- :white_check_mark: [从聊天机器人到 Agent](./s_ai_31-chatbot_to_agent)
+- :white_check_mark: [模型调用与多轮上下文（Prompt / Message / Context）](./s_ai_35-model_call)
+- :white_check_mark: [Context Budget（上下文预算）](./s_ai_36-context_budget)
+- :white_check_mark: [随机性、幻觉与能力边界](./s_ai_37-boundaries)
+- :white_check_mark: [Model Router（任务画像与能力路由）](./s_ai_38-model_router)
 - :white_check_mark: [Prompt Engineering](./s_ai_22-prompt_engineering)
 - :white_check_mark: [流式输出 Streaming](./s_ai_19-streaming)
 - :white_check_mark: [AI Agent 智能体](./s_ai_24-agent)
